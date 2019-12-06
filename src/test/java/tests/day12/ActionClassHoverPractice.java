@@ -39,7 +39,7 @@ public class ActionClassHoverPractice {
         String expectedText = "name: user1";
         String actualText = textOfImageElement.getText();
 
-
+        Assert.assertEquals(actualText,expectedText);
 
     }
     @Test(description = "Verify all images")
